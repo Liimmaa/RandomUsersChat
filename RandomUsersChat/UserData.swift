@@ -7,8 +7,8 @@
 
 import UIKit
 
-class UserData {
-    var users: String = ""
+class UserData: ObservableObject {
+    @Published var users: String = ""
     
     init() {
         Task {

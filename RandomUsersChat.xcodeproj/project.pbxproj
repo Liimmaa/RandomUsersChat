@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A5281F628BDA9990021FFD8 /* RandomUsersChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5281F528BDA9990021FFD8 /* RandomUsersChatApp.swift */; };
-		7A5281F828BDA9990021FFD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5281F728BDA9990021FFD8 /* ContentView.swift */; };
+		7A5281F828BDA9990021FFD8 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5281F728BDA9990021FFD8 /* UsersView.swift */; };
 		7A5281FA28BDA99C0021FFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5281F928BDA99C0021FFD8 /* Assets.xcassets */; };
 		7A5281FD28BDA99C0021FFD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5281FC28BDA99C0021FFD8 /* Preview Assets.xcassets */; };
 		7A52820728BDA99C0021FFD8 /* RandomUsersChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52820628BDA99C0021FFD8 /* RandomUsersChatTests.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		7A5281F228BDA9990021FFD8 /* RandomUsersChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsersChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5281F528BDA9990021FFD8 /* RandomUsersChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersChatApp.swift; sourceTree = "<group>"; };
-		7A5281F728BDA9990021FFD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A5281F728BDA9990021FFD8 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		7A5281F928BDA99C0021FFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A5281FC28BDA99C0021FFD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A52820228BDA99C0021FFD8 /* RandomUsersChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				7A5281F528BDA9990021FFD8 /* RandomUsersChatApp.swift */,
-				7A5281F728BDA9990021FFD8 /* ContentView.swift */,
+				7A5281F728BDA9990021FFD8 /* UsersView.swift */,
 				7A52821F28BDABBD0021FFD8 /* UserFetchingClient.swift */,
 				7A52822128BDAF030021FFD8 /* UserData.swift */,
 				7A5281F928BDA99C0021FFD8 /* Assets.xcassets */,
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5281F828BDA9990021FFD8 /* ContentView.swift in Sources */,
+				7A5281F828BDA9990021FFD8 /* UsersView.swift in Sources */,
 				7A5281F628BDA9990021FFD8 /* RandomUsersChatApp.swift in Sources */,
 				7A52822228BDAF030021FFD8 /* UserData.swift in Sources */,
 				7A52822028BDABBD0021FFD8 /* UserFetchingClient.swift in Sources */,
