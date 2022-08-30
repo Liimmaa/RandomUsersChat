@@ -12,6 +12,11 @@ class UserData {
     
     init() {
         Task {
+            await loadUsers()
+        }
+    }
+    
+   func loadUsers() async {
             do {
                 let users = try await UserFetchingClient.getUsers()
                 self.users = users
@@ -19,6 +24,5 @@ class UserData {
             catch {
                 print(error)
             }
-        }
     }
 }
