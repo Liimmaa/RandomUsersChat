@@ -7,6 +7,7 @@
 
 import UIKit
 
+@MainActor
 class UserData: ObservableObject {
     @Published var users: String = ""
     
